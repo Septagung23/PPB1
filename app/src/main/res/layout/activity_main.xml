@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2F242C"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="410dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="11dp"
+        android:background="#502274"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="serif"
+            android:text="Profil Kelompok 13"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="360dp"
+        android:layout_height="584dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="-2dp"
+            android:background="#A42CD6"
+            app:cardBackgroundColor="#A42CD6"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@drawable/pasfoto" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Septian Agung P."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="21120120140129"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            app:cardBackgroundColor="#A42CD6"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@drawable/pasfoto" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Septian Agung P."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="21120120140129"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="220dp"
+            app:cardBackgroundColor="#A42CD6"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@drawable/pasfoto" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Septian Agung P."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="21120120140129"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="335dp"
+            app:cardBackgroundColor="#A42CD6"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@drawable/pasfoto" />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Septian Agung P."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="21120120140129"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="449dp"
+            app:cardBackgroundColor="#A42CD6"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="15dp">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                tools:srcCompat="@drawable/pasfoto" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Septian Agung P."
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="231dp"
+                android:layout_height="47dp"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="21120120140129"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
